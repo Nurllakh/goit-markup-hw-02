@@ -1,0 +1,51 @@
+:root {
+    --title-text-color:#757575;
+    --heading-text-color:#212121;
+}
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
+.logo {
+    color: #2196F3;
+}
+.logo2 {
+    color: #212121;
+}
+.site-nove .link {
+    color: #212121;
+}
+.site-nove .link:hover, 
+.site-nove .link:focus {
+    color: #2196F3;
+}
+.contacts-nav .link:hover,
+.contacks-nav .link:focus {
+    color: #2196F3;
+}
+.section-effective {
+    background: #2F303A;
+}
+.section-title {
+    color: #212121;
+}
+.footer-title {
+    background: #2F303A;
+}
+.white {
+    color: #FFFFFF;
+}
+.primary {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+.page:hover {
+    color: #2196F3;
+}
+
+
+
+/* текс заголовки color: #212121*/
+/* основной текс color: #757575;*/
+/* footer color: rgba(255, 255, 255, 0.4) */
+/* wait color: #FFFFFF */
