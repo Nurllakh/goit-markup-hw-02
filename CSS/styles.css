@@ -39,12 +39,16 @@ body {
     color: #FFFFFF;
     background: #2196F3;
 }
-.page:hover {
+.description {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+.social-networks {
+    color: #FFFFFF;
+}
+.social-networks:hover {
     color: #2196F3;
 }
-
-
-
 /* текс заголовки color: #212121*/
 /* основной текс color: #757575;*/
 /* footer color: rgba(255, 255, 255, 0.4) */
