@@ -1,17 +1,19 @@
 :root {
     --title-text-color:#757575;
     --heading-text-color:#212121;
+    --background-text-color:#2196F3;
+    --white-text-color:#FFFFFF;
 }
 body {
-    background-color: #FFFFFF;
-    color: #757575;
+    background-color: var(--white-text-color );
+    color: var(--title-text-color );
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1,71;
 }
 .logo {
-    color: #2196F3;
+    color: var(--background-text-color);
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
@@ -19,14 +21,23 @@ body {
     letter-spacing: 0.03em;
 }
 .logo2 {
-    color: #212121;
+    color: var(--heading-text-color);
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
 }
+.logo3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);    
+}
 .site-nove .link {
-    color: #212121;
+    color: var(--heading-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -34,17 +45,21 @@ body {
 }
 .site-nove .link:hover, 
 .site-nove .link:focus {
-    color: #2196F3;
+    color: var(--background-text-color);
 }
 .contacts-nav .link:hover,
 .contacks-nav .link:focus {
-    color: #2196F3;
+    color: var(--background-text-color);
 }
 .section-effective {
     background: #2F303A;
 }
+.service{
+    color: var(--white-text-color);
+    background: var(--background-text-color);
+}
 .section-title {
-    color: #212121;
+    color: var(--heading-text-color);
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -60,32 +75,41 @@ body {
     background: #2F303A;
 }
 .white {
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 .primary {
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--white-text-color);
+    background: var(--background-text-color);
 }
 
 .social-networks {
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 .social-networks:hover {
-    color: #2196F3;
+    color: var(--background-text-color);
 }
-.site-nove list .button{
-    color: #FFFFFF;
-    background: #2196F3;
+.button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.65;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: var(--heading-text-color);
+}
+.button:focus,
+.button:hover {
+    color: var(--white-text-color);
+    background: var(--background-text-color);
 }
 .business {
-    color: #FFFFFF;
+    color: var(--white-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
 }
 .title {
-    color: #212121;
+    color: var(--heading-text-color);
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -98,7 +122,7 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--heading-text-color);
 }
 /* текс заголовки color: #212121*/
 /* основной текс color: #757575;*/
