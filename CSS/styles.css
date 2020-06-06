@@ -5,15 +5,32 @@
 body {
     background-color: #FFFFFF;
     color: #757575;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1,71;
 }
 .logo {
     color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .logo2 {
     color: #212121;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .site-nove .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nove .link:hover, 
 .site-nove .link:focus {
@@ -28,6 +45,16 @@ body {
 }
 .section-title {
     color: #212121;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .footer-title {
     background: #2F303A;
@@ -39,15 +66,39 @@ body {
     color: #FFFFFF;
     background: #2196F3;
 }
-.description {
-    color: #FFFFFF;
-    background: #2196F3;
-}
+
 .social-networks {
     color: #FFFFFF;
 }
 .social-networks:hover {
     color: #2196F3;
+}
+.site-nove list .button{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+.business {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.title {
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 /* текс заголовки color: #212121*/
 /* основной текс color: #757575;*/
