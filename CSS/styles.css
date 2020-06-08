@@ -12,12 +12,16 @@ body {
     font-size: 14px;
     line-height: 1,71;
 }
+a {
+    text-decoration: none;
+}
 .logo {
     color: var(--background-text-color);
-    font-family: Raleway, sans-serif;
+    font-family: Raleway;
+    font-style: normal;
     font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 22px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 .logo2 {
@@ -32,7 +36,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--white-text-color);    
 }
@@ -44,17 +48,36 @@ body {
     letter-spacing: 0.02em;
 }
 .site-nove .link:hover, 
-.site-nove .link:focus {
+.site-nove .link:focus
+.site-nove .link:active {
     color: var(--background-text-color);
 }
-.contacts-nav .link:hover,
-.contacks-nav .link:focus {
+.contacts-nav .contacts{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.contacts-nav .contacts:hover,
+.contacks-nav .contacts:focus {
     color: var(--background-text-color);
 }
 .section-effective {
     background: #2F303A;
 }
 .service{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+    font-style: normal; 
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: flex;
     color: var(--white-text-color);
     background: var(--background-text-color);
 }
@@ -65,6 +88,16 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.job {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    background: rgba(47, 48, 58, 0.8)
 }
 .text {
     font-size: 14px;
@@ -89,12 +122,13 @@ body {
     color: var(--background-text-color);
 }
 .button {
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.65;
-   text-align: center;
-   letter-spacing: 0.03em;
-   color: var(--heading-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--heading-text-color);
 }
 .button:focus,
 .button:hover {
@@ -107,6 +141,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    text-transform: uppercase;
 }
 .title {
     color: var(--heading-text-color);
@@ -124,6 +159,69 @@ body {
     letter-spacing: 0.03em;
     color: var(--heading-text-color);
 }
+.position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.description {
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+    background: var(--background-text-color);
+}
+.section-portfolio {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--heading-text-color);
+}
+.name {
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+}
+.contacts-nav .link:active {
+    color: var(--background-text-color);
+}
+.to-us {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);    
+}
+.city {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+}
+.site-nove .link.current {
+    color: var(--background-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* текс заголовки color: #212121*/
 /* основной текс color: #757575;*/
 /* footer color: rgba(255, 255, 255, 0.4) */
