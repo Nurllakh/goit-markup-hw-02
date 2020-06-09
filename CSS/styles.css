@@ -208,21 +208,16 @@ a {
 .site-nove .link.current {
     color: var(--background-text-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* текс заголовки color: #212121*/
-/* основной текс color: #757575;*/
-/* footer color: rgba(255, 255, 255, 0.4) */
-/* wait color: #FFFFFF */
+.contacts.footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.developed {
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
